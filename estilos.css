@@ -351,6 +351,12 @@ footer{
   .info2 .card a{
     font-size: 25px;
   }
+  .info3{
+    padding: 0px 60px;
+  }
+  .info3 h5{
+    font-size: 40px;
+  }
   .logros div {
     margin: 50px 50px;
   }
@@ -457,6 +463,12 @@ footer{
   }
   .info2 .card a{
     font-size: 25px;
+  }
+  .info3{
+    padding: 0px 60px;
+  }
+  .info3 h5{
+    font-size: 20px;
   }
   .logros div {
     margin: 50px 30px;
@@ -577,6 +589,12 @@ footer{
   }
   .info2 .card a{
     font-size: 25px;
+  }
+  .info3{
+    padding: 0px 25px;
+  }
+  .info3 h5{
+    font-size: 20px;
   }
   .logros div {
     margin: 20px 10px;
