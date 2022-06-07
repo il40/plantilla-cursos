@@ -1,0 +1,631 @@
+/* carrusel */
+
+body {
+    background: rgb(17, 17, 17);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+  }
+
+h3{
+  font-size: 25px;
+  color: rgb(250, 107, 6);
+}  
+
+h4{
+  font-size: 15px;
+}  
+hr{
+  color: rgb(250, 107, 6);
+}
+
+.img-portada{
+  padding: 30px 300px 1px 300px;
+}  
+
+.menu-redes{
+  position: fixed;
+  float: left;
+  margin-top: 304px;
+  margin-right: 16px;
+}
+.menu-redes a{
+  margin: 25px 1px;
+}
+.menu-redes i{
+  color: rgb(250, 107, 6);
+  font-size: 40px;
+}
+.menu-redes i:hover{
+  color: rgba(255, 107, 2, 0.542);
+  font-size: 42px;
+}
+.ingresar{
+  border: 1px solid rgb(250, 107, 6);
+  border-radius: 2%;
+  margin: 100px 250px;
+  padding: 10px;
+}
+.ingresar:hover{
+  background: rgba(250, 108, 6, 0.148);
+}
+.ingresar a{
+  text-decoration: none;
+  color: rgb(250, 107, 6);
+}
+
+.video iframe{
+  padding: 50px 170px;
+}
+.info-texto{
+  color: rgb(255, 255, 255);
+  padding: 20px 150px;
+}
+.info-texto h3{
+  margin-top: 80px;
+  color: rgb(250, 107, 6);
+  font-size: 22px;
+}
+.info-texto p{
+  margin: 50px 100px;
+}
+.sec-info{
+  padding: 80px 110px;
+  display: flex;
+}
+.info1 .info2 .info3{
+  padding: 50px;
+}
+
+.info1 .info2 .info3 img{
+  box-shadow: 1px 1px 5px rgba(250, 108, 6, 0.53);
+}
+.info1 .card{
+  background: none;
+  color: rgb(250, 107, 6);
+}
+.info2 .card{
+  width: 18rem;
+  background: none;
+  color: rgb(250, 107, 6);
+}
+.info3 .card{
+  background: none;
+  color: rgb(250, 107, 6);
+}
+.info1 .card img{
+  margin-top: 50px;
+}
+.info2 .card img{
+  margin-top: 50px;
+}
+.precio{
+  margin-top: 50px;
+}
+.info1 .info2 h5{
+  font-size: 40px;
+  padding-top: 30px;
+}
+.info3 h5{
+  font-size: 70px;
+}
+.card a{
+  color: rgb(250, 107, 6);
+  text-decoration: none;
+  border: 1px solid rgb(250, 107, 6);
+  box-shadow: 1px 1px 5px rgba(250, 108, 6, 0.53);
+  padding: 5px 10px;
+}
+.card a:hover{
+  background: rgba(250, 108, 6, 0.148);
+}
+
+.privacidad{
+  margin-top: 20px;
+  border: 1px solid rgb(250, 107, 6);
+  box-shadow: 1px 1px 5px rgba(250, 108, 6, 0.53);
+}
+.privacidad .card{
+  background: rgb(0, 0, 0);
+}
+.privacidad i{
+  font-size: 45px;
+}
+.privacidad h5{
+  font-size: 15px;
+  padding-top: 5px;
+}
+.privacidad p{
+  font-size: 12px;
+}
+.logros div{
+  margin: 50px 150px;
+}
+.logros h3{
+  color: rgb(250, 107, 6);
+}
+.logros li{
+  color: rgb(255, 255, 255);
+  margin: 1px 120px 30px 1px;
+}
+.diploma{
+  padding: 5px 50px 5px 50px;
+}
+
+.modulos{
+  padding: 100px 100px 5px 150px;
+  color: rgb(255, 255, 255);
+}
+.modulos-intro{
+  margin-bottom: 60px;
+}
+.modulos h3{
+  color: rgb(250, 107, 6);
+}
+.modulos li{
+  font-size: 15px;
+}
+.productora{
+  margin: 10px 1px 0px 1px;
+  padding: 100px 200px 50px 150px;
+  color: rgb(255, 255, 255);
+}
+.logo{
+  margin: 20px 200px;
+}
+.logo img{
+  padding: 50px 300px;
+}
+footer{
+  color: rgba(255, 255, 255, 0.478);
+  background: black;
+  border-top: rgba(250, 108, 6, 0.781);
+  font-weight: 100;
+}
+  
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*------------------------@media--------------------------------------*/
+
+
+@media (min-width: 1200px){}
+
+
+
+/*  ---------@MEDIA  992 A 1199 ----------*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  .menu-redes i{
+    font-size: 30px;
+  }
+  .menu-redes i:hover{
+    color: rgba(255, 107, 2, 0.542);
+    font-size: 32px;
+  }
+  .img-portada{
+    padding: 32px 200px 0 200px;
+  }
+  .ingresar{
+    margin: 100px 200px;
+    padding: 5px;  
+  }
+  .ingresar a{
+    font-size: 10px;
+  }
+  .video iframe{
+    padding: 20px 120px;
+  }
+  .info-texto h3{
+    font-size: 18px;
+  }
+  .info-texto{
+    padding: 20px 100px;
+  }
+  .info-texto p{
+    margin: 30px 50px;
+  }
+  .sec-info{
+    padding: 60px 90px;
+  }
+  .info1{
+    padding: 15px;
+  }
+  .info2{
+    padding: 15px;
+  }
+  .privacidad {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .privacidad i {
+    font-size: 30px;
+  }
+  .privacidad .card-body{
+    padding: 7px;
+  }
+  .logros div {
+    margin: 50px 80px;
+  }
+  .privacidad i{
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .modulos li {
+    font-size: 14px;
+  }
+  .productora {
+    padding: 100px 120px 50px 110px;
+  }
+  .logo {
+    margin: 20px 150px;
+  }
+  .logo img{
+    padding: 10px 10px;
+  }
+  footer{
+    font-size: 12px;
+  }
+}
+
+/*  ---------@MEDIA  768 A 991 ----------*/
+
+@media (min-width: 768px) and (max-width: 991.98px){
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  h5{
+    font-size: 5px;
+  }
+  .nav-link{
+    padding: 0.5rem 0.5rem;
+  }
+  .menu-redes{
+    margin-top: 5rem;
+    margin-right: 0.31rem;
+  }
+  .menu-redes i{
+    font-size: 25px;
+  }
+  .menu-redes i:hover{
+    font-size: 26px;
+  }
+  .img-portada {
+    padding: 30px 100px 1px 100px;
+  }
+  .ingresar{
+    margin: 50px 60px;
+    padding: 3px;
+  }
+  .ingresar a{
+    font-size: 10px;
+  }
+  .video iframe {
+    padding: 10px 70px;
+  }
+  .info-texto {
+    color: rgb(255, 255, 255);
+    padding: 20px 55px;
+  }
+  .info-texto h3 {
+    font-size: 18px;
+  }
+  .info-texto p{
+    margin: 30px 5px;
+  }
+  .sec-info {
+    padding: 50px 10px;
+    display: block;
+  }
+  .info1 {
+    padding: 50px 80px;
+  }
+  .privacidad{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .privacidad i{
+    font-size: 28px;
+  }
+  .privacidad .card-body{
+    padding: 7px;
+  }
+  .info2 {
+    padding: 0px 90px;
+  }
+  .info2 .card{
+    width: 100%;
+  }
+  .info2 .card a{
+    font-size: 25px;
+  }
+  .logros div {
+    margin: 50px 50px;
+  }
+  .modulos {
+    padding: 50px 70px 5px 70px;
+  }
+  .modulos li {
+    font-size: 12px;
+  }
+  .productora {
+    padding: 60px 80px 50px 70px;
+  }
+  .logo {
+    margin: 20px 150px;
+  }
+  .logo img{
+    padding: 10px 10px;
+  }
+  footer{
+    font-size: 12px;
+  }
+  
+}
+
+
+/*  ---------@MEDIA  576 A 767 ----------*/
+
+@media (min-width: 576px) and (max-width: 767.98px){
+  h3{
+    font-size: 12px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  .nav-link{
+    padding: 0.5rem 0.5rem;
+  }
+  .menu-redes{
+    margin-top: 7.5rem;
+    margin-right: 0.31rem;
+  }
+  .menu-redes a{
+    margin-top: 0.5rem;
+    margin-right: 0.31rem;
+  }
+  .menu-redes i{
+    font-size: 25px;
+  }
+  .menu-redes i:hover{
+    font-size: 26px;
+  }
+  .img-portada {
+    padding: 30px 50px 1px 50px;
+  }
+  .ingresar{
+    margin: 50px 60px;
+    padding: 3px;
+  }
+  .ingresar a{
+    font-size: 8px;
+  }
+  .video iframe {
+    padding: 10px 70px;
+  }
+  .info-texto {
+    color: rgb(255, 255, 255);
+    padding: 20px 55px;
+  }
+  .info-texto h3 {
+    font-size: 18px;
+  }
+  .info-texto p{
+    margin: 30px 5px;
+    font-size: 12px;
+  }
+  .sec-info {
+    padding: 50px 25px;
+    display: block;
+  }
+  .privacidad-i{
+    padding-top: 7px;
+  }
+  .privacidad i{
+    font-size: 28px;
+  }
+  .privacidad .card-body{
+    padding: 7px;
+  }
+  .privacidad h5{
+    font-size: 12px;
+  }
+  .info1 {
+    padding: 10px 30px;
+  }
+  .info1 .card{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .info2 {
+    padding: 0px 90px;
+  }
+  .info2 .card{
+    width: 100%;
+  }
+  .info2 .card a{
+    font-size: 25px;
+  }
+  .logros div {
+    margin: 50px 30px;
+  }
+  .logros li{
+    margin: 1px 50px 30px 1px;
+  }
+  .modulos {
+    padding: 50px 70px 5px 70px;
+  }
+  .modulos h4{
+    font-weight: 300;
+  }
+  .modulos li {
+    font-weight: 200;
+    font-size: 12px;
+  }
+  .productora {
+    padding: 30px 70px 30px 60px;
+  }
+  .productora p{
+    font-weight: 200;
+  }
+  .logo {
+    margin: 20px 150px;
+  }
+  .logo img{
+    padding: 10px 10px;
+  }
+  footer{
+    font-size: 12px;
+  }
+  
+}
+
+
+
+/*  ---------@MEDIA max  576 ----------*/
+@media (max-width: 575.98px){
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  .nav-link{
+    padding: 0.5rem 0.5rem;
+  }
+  .menu-redes {
+    margin-top: 8.125rem;
+    margin-right: 0px;
+  }
+  .menu-redes a{
+    margin-top: 0.5rem;
+  }
+  .menu-redes i{
+    font-size: 20px;
+  }
+  .menu-redes i:hover{
+    font-size: 20px;
+  }
+  .img-portada {
+    padding: 30px 50px 1px 50px;
+  }
+  .ingresar{
+    margin: 30px 60px;
+    padding: 3px;
+  }
+  .ingresar a{
+    font-size: 6px;
+  }
+  .video iframe {
+    padding: 4px 30px;
+  }
+  .info-texto {
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+  }
+  .info-texto h3 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .info-texto p{
+    margin: 30px 5px;
+    font-size: 10px;
+  }
+  .sec-info {
+    padding: 10px 25px;
+    display: block;
+  }
+  .info1 {
+    padding: 10px 10px;
+  }
+  .info1 .card{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .privacidad-i{
+    padding-top: 7px;
+  }
+  .privacidad i{
+    font-size: 28px;
+  }
+  .privacidad .card-body{
+    padding: 7px;
+  }
+  .privacidad h5{
+    font-size: 10px;
+  }
+  .privacidad p{
+    font-size: 10px;
+  }
+  .info2 {
+    padding: 0px 20px;
+  }
+  .info2 .card{
+    width: 100%;
+  }
+  .info2 .card a{
+    font-size: 25px;
+  }
+  .logros div {
+    margin: 20px 10px;
+  }
+  .logros li{
+    margin: 1px 30px 20px 1px;
+    font-size: 12px;
+  }
+  .logros h3{
+    font-size: 15px;
+  }
+  .diploma{
+    padding: 45px 15px 5px 15px;
+  }
+  .modulos {
+    padding: 50px 25px 5px 20px;
+  }
+  .modulos h3{
+    font-size: 15px;
+  }
+  .modulos h4{
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .modulos li {
+    font-weight: 200;
+    font-size: 12px;
+  }
+  .productora {
+    padding: 30px 25px 30px 20px;
+  }
+  .productora h3{
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .productora p{
+    font-weight: 200;
+    font-size: 12px;
+  }
+  .logo {
+    margin: 20px 35px;
+  }
+  .logo img{
+    padding: 10px 40px;
+  }
+  footer{
+    font-size: 12px;
+    bottom: 0;
+  }
+}
+/*   */
+  
